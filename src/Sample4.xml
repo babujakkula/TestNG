@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Login to APSRTC">
+    <classes>
+      <class name="myTestNGpack.TestNGtest4"/>
+    </classes>
+  </test>
+</suite>

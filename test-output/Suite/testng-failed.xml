@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Login to APSRTC(failed)">
+    <classes>
+      <class name="myTestNGpack.TestNGtest4">
+        <methods>
+          <include name="Launch"/>
+          <include name="dologin" invocation-numbers="3"/>
+          <include name="closesite"/>
+        </methods>
+      </class> <!-- myTestNGpack.TestNGtest4 -->
+    </classes>
+  </test> <!-- Login to APSRTC(failed) -->
+</suite> <!-- Failed suite [Suite] -->
