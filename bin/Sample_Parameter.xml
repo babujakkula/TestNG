@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+  <parameter name="uid" value="jakkulababu"/>
+  <parameter name="uidc" value="valid"/>
+  <parameter name="pwd" value="Babu@1234"/>
+  <parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="myTestNGpack.GmailParameterTest"/>
+    </classes>
+  </test>
+  <test name="Test2">
+  <parameter name="uid" value=" "/>
+  <parameter name="uidc" value="invalid"/>
+  <parameter name="pwd" value="Babu@1234"/>
+  <parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="myTestNGpack.GmailParameterTest"/>
+    </classes>
+  </test>
+  <test name="Test3">
+  <parameter name="uid" value="0028019"/>
+  <parameter name="uidc" value="invalid"/>
+  <parameter name="pwd" value="Babu@1234"/>
+  <parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="myTestNGpack.GmailParameterTest"/>
+    </classes>
+  </test>
+  <test name="Test4">
+  <parameter name="uid" value="jakkulababu"/>
+  <parameter name="uidc" value="valid"/>
+  <parameter name="pwd" value=""/>
+  <parameter name="pwdc" value="invalid"/>
+    <classes>
+      <class name="myTestNGpack.GmailParameterTest"/>
+    </classes>
+  </test>
+  <test name="Test5">
+  <parameter name="uid" value="jakkulababu"/>
+  <parameter name="uidc" value="valid"/>
+  <parameter name="pwd" value="Babu"/>
+  <parameter name="pwdc" value="invalid"/>
+    <classes>
+      <class name="myTestNGpack.GmailParameterTest"/>
+    </classes>
+  </test>
+</suite>

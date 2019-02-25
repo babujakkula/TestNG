@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
-  <test name="Test1">
+  <test name="Test">
     <classes>
       <class name="myTestNGpack.TestNGTest1"/>
-    </classes>
-    </test>>
-   <!--  <test name="Test2">
-    <classes>
       <class name="myTestNGpack.TestNGTest2"/>
+      <class name="myTestNGpack.TestNGTest3"/>
     </classes>
-  </test> Test -->
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
